@@ -1,6 +1,6 @@
 source https://api.nuget.org/v3/index.json
 
-framework: net451
+framework: net471
 redirects: on
 content: once
 copy_content_to_output_dir: always
@@ -49,3 +49,25 @@ nuget Nuget.CommandLine
 nuget Shouldly
 
 nuget NLog ~> 4.0
+
+#To support .NET framework 4.7.1
+nuget System.Diagnostics.FileVersionInfo redirects: off
+nuget System.IO.Compression redirects: off
+nuget System.IO.FileSystem redirects: off
+nuget System.IO.FileSystem.Primitives redirects: off
+nuget System.IO redirects: off
+nuget System.Collections.Immutable
+nuget System.Reflection.Metadata 
+nuget System.Security.Cryptography.Algorithms redirects: off
+nuget System.Security.Cryptography.Primitives redirects: off
+nuget System.Text.Encoding.CodePages redirects: off
+nuget System.Threading.Tasks.Extensions redirects: off
+nuget System.ValueTuple redirects: off
+nuget System.Xml.XPath.XDocument redirects: off
+nuget System.Runtime redirects: off
+nuget System.Reflection redirects: off
+nuget System.Linq redirects: off
+nuget System.Linq.Expressions redirects: off
+nuget System.Runtime.InteropServices redirects: off
+nuget System.Runtime.Extensions redirects: off
+nuget System.Net.Http redirects: off
