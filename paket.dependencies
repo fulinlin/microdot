@@ -42,7 +42,7 @@ nuget Castle.Core ~> 4.0
 
 #Tests only dependencies
 nuget NUnit ~> 3.0
-nuget RichardSzalay.MockHttp 
+nuget RichardSzalay.MockHttp 4.0    # When moving to .NET framework 4.7.2 or Later, remove the specific version
 nuget NSubstitute  
 nuget FluentAssertions 
 nuget Nuget.CommandLine 
